@@ -1,5 +1,6 @@
 # TPF-scilab
-The inverse Abel transformation
+The inverse Abel transformation.
+
 The solution of an equation of Abel type by numerical methods. Variants of the solution are given for example in [1-3]. One variant - “two-point formula” (TPF) was implemented in the Scilab software environment [4].  SciLab – free mathematical software compatible with MATLAB.
 
 [russian]
