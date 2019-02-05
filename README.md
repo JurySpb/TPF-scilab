@@ -1,85 +1,10 @@
 # TPF-scilab
 The inverse Abel transformation
-<?xml version="1.0" encoding="UTF-8"?>
+The solution of an equation of Abel type by numerical methods. Variants of the solution are given for example in [1-3]. One variant - “two-point formula” (TPF) was implemented in the Scilab software environment [4].  SciLab – free mathematical software compatible with MATLAB.
+[russian]
+Решение уравнения  типа Абеля численными методами. Варианты решения приведены например в [1-3]. Один вариант - «two-point formula» (TPF) был реализован  в программной среде Scilab [4]. Scilab - свободная математическая среда, совместимая с MATLAB.
 
-<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
- <semantics>
-  <mrow>
-   <mi>n</mi>
-   <mrow>
-    <mrow>
-     <mo fence="true" stretchy="false">(</mo>
-     <mrow>
-      <mi>r</mi>
-     </mrow>
-     <mo fence="true" stretchy="false">)</mo>
-    </mrow>
-    <mo stretchy="false">=</mo>
-    <mrow>
-     <msub>
-      <mi>n</mi>
-      <mn>0</mn>
-     </msub>
-     <mo stretchy="false">⋅</mo>
-     <mi>exp</mi>
-    </mrow>
-   </mrow>
-   <mrow>
-    <mo fence="true" stretchy="true">{</mo>
-    <mrow>
-     <mrow>
-      <mrow>
-       <mo stretchy="false">−</mo>
-       <mfrac>
-        <mn>1</mn>
-        <mi>π</mi>
-       </mfrac>
-      </mrow>
-      <mo stretchy="false">⋅</mo>
-      <mrow>
-       <munderover>
-        <mo stretchy="false">∫</mo>
-        <mi>r</mi>
-        <mi>R</mi>
-       </munderover>
-       <mrow>
-        <mfrac>
-         <mrow>
-          <msub>
-           <mi>α</mi>
-           <mi>R</mi>
-          </msub>
-          <mrow>
-           <mo fence="true" stretchy="false">(</mo>
-           <mrow>
-            <mi>y</mi>
-           </mrow>
-           <mo fence="true" stretchy="false">)</mo>
-          </mrow>
-         </mrow>
-         <msqrt>
-          <mrow>
-           <msup>
-            <mi>y</mi>
-            <mn>2</mn>
-           </msup>
-           <mo stretchy="false">−</mo>
-           <msup>
-            <mi>r</mi>
-            <mn>2</mn>
-           </msup>
-          </mrow>
-         </msqrt>
-        </mfrac>
-        <mo stretchy="false">⋅</mo>
-        <mi mathvariant="italic">dy</mi>
-       </mrow>
-      </mrow>
-     </mrow>
-    </mrow>
-    <mo fence="true" stretchy="true">}</mo>
-   </mrow>
-  </mrow>
-  <annotation encoding="StarMath 5.0">n ( r )= n_0 cdot exp left lbrace - {{1} over { %pi }}  cdot int from{r} to{R} { { %alpha_R  (y)}  over {sqrt{y^2-r^2}} cdot dy } right rbrace</annotation>
- </semantics>
-</math>
+[1] C. J. Dasch, “One-dimensional tomography: a comparison of Abel, onion-peeling, and filtered backprojection methods,” Applied Optics, vol. 31, no. 8, p. 1146, Mar. 1992.
+[2]	P. S. Kolhe and A. K. Agrawal, “Abel inversion of deflectometric data: comparison of accuracy and noise propagation of existing techniques,” Applied optics, vol. 48, no. 20, pp. 3894–3902, 2009.
+[3]	H. Chehouani and M. El Fagrich, “Adaptation of the Fourier–Hankel method for deflection tomographic reconstruction of axisymmetric field,” Applied Optics, vol. 52, no. 3, p. 439, Jan. 2013.
+[4] “Home Page | www.scilab.org.” [Online]. Available: https://www.scilab.org/.
