@@ -3,7 +3,7 @@
 
 The solution of an equation of Abel type by numerical methods. Variants of the solution are given for example in [1-3]. One variant - “two-point formula” (TPF) was implemented in the  [Scilab](https://www.scilab.org) software environment.  SciLab – free mathematical software compatible with MATLAB.
 
-[russian]
+##### [russian]
 Решение уравнения  типа Абеля численными методами. Варианты решения приведены например в [1-3]. Один вариант - «two-point formula» (TPF) был реализован  в программной среде [Scilab](https://www.scilab.org). Scilab - свободная математическая среда, совместимая с MATLAB.
 
 Requires to work [Scilab](https://www.scilab.org)
