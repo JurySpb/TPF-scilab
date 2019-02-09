@@ -1,6 +1,16 @@
+
+///////////////////
+// inversion Abel transformation
+// See works: 
+// C. J. Dasch,... 
+// P. S. Kolhe and A. K. Agrawal,... 
+// H. Chehouani and M. El Fagrich,...
+// for Scilab
+// 02-2019
+// Jury Barinov
+//
+// (two-point formula, TPF)
 function [yout]=inv_trans_TPF(yi)
-     // Semi-analytical technique with piecewise approximation in a segment by a linear profile
-    // (two-point formula, TPF)
     n1=length(yi); // poins on R
     deff("[a]=Aij(i,j)","a=sqrt((j)^2-(i-1)^2)-sqrt((j-1)^2-(i-1)^2)");
     deff("[b]=Bij(i,j)","b=log((j+sqrt((j)^2-(i-1)^2))./((j-1)+sqrt((j-1)^2-(i-1)^2)))");
