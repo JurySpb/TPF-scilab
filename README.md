@@ -6,7 +6,8 @@ The solution of an equation of Abel type by numerical methods. Variants of the s
 ##### [russian]
 Решение уравнения  типа Абеля численными методами. Варианты решения приведены например в [1-3]. Один вариант - «two-point formula» (TPF) был реализован  в программной среде [Scilab](https://www.scilab.org). Scilab - свободная математическая среда, совместимая с MATLAB.
 
-Requires to work [Scilab](https://www.scilab.org)
+#### Requires to work
+[Scilab](https://www.scilab.org)
 
 #### References
 1. C. J. Dasch, “One-dimensional tomography: a comparison of Abel, onion-peeling, and filtered backprojection methods,” Applied Optics, vol. 31, no. 8, p. 1146, Mar. 1992.
